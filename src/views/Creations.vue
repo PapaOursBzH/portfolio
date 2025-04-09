@@ -43,7 +43,6 @@
     image: logoportfolio,
     date: 'Mars 2025',
     tech: ['HTML', 'CSS'],
-    site: '',
     repo: 'https://github.com/PapaOursBzH/DynamiserUnEspaceDeCommentaires_DocumentsDevoir'
   }
 ]
