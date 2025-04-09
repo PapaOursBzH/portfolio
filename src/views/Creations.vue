@@ -35,7 +35,7 @@
     date: 'Février 2025',
     tech: ['HTML', 'CSS'],
     site: 'https://papaoursbzh.github.io/',
-    repo: 'https://github.com/PapaOursBzH/papaoursbzh.github.io',
+    repo: 'https://github.com/PapaOursBzH/papaoursbzh.github.io'
   }
   {
     title: 'Cours Dynamiser un espace commentaire',
@@ -43,7 +43,7 @@
     date: 'Mars 2025',
     tech: ['HTML', 'CSS'],
     site: '',
-    repo: 'https://github.com/PapaOursBzH/DynamiserUnEspaceDeCommentaires_DocumentsDevoir',
+    repo: 'https://github.com/PapaOursBzH/DynamiserUnEspaceDeCommentaires_DocumentsDevoir'
   }
 ]
 
