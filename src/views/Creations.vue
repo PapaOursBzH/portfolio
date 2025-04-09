@@ -24,7 +24,7 @@
   {
     title: 'Projet Portfolio',
     image: logoportfolio,
-    date: 'Mars 2024',
+    date: 'Avril 2025',
     tech: ['HTML', 'CSS', 'Vue.js'],
     site: 'https://papaoursbzh.github.io/portfolio/#/presentation',
     repo: 'https://github.com/PapaOursBzH/portfolio'
@@ -32,10 +32,18 @@
   {
     title: 'Mon CV',
     image: cv,
-    date: 'Avril 2024',
+    date: 'Février 2025',
     tech: ['HTML', 'CSS'],
     site: 'https://papaoursbzh.github.io/',
-    repo: ''
+    repo: 'https://github.com/PapaOursBzH/papaoursbzh.github.io',
+  }
+  {
+    title: 'Cours Dynamiser un espace commentaire',
+    image: logoportfolio,
+    date: 'Mars 2025',
+    tech: ['HTML', 'CSS'],
+    site: '',
+    repo: 'https://github.com/PapaOursBzH/DynamiserUnEspaceDeCommentaires_DocumentsDevoir',
   }
 ]
 
