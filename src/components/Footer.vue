@@ -2,10 +2,10 @@
   <footer class="footer">
     <p>© {{ currentYear }} - Mis à jour le {{ updateDate }}</p>
     <div class="socials">
-      <a href="https://github.com/ton-vrai-pseudo" target="_blank" aria-label="GitHub">
+      <a href="https://github.com/PapaOursBzH" target="_blank" aria-label="GitHub">
         <Github :size="24" />
       </a>
-      <a href="https://www.linkedin.com/in/ton-vrai-profil/" target="_blank" aria-label="LinkedIn">
+      <a href="https://www.linkedin.com/in/papaoursbzh/" target="_blank" aria-label="LinkedIn">
         <Linkedin :size="24" />
       </a>
     </div>
