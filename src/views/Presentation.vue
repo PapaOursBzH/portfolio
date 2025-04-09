@@ -1,7 +1,7 @@
 <template>
     <section id="presentation">
-      <h2>Bonjour, je suis [Ton Prénom Nom]</h2>
-      <p>Voici mon portfolio développé avec Vue.js</p>
+      <h2>Hello ! Moi c'est Fabien alias Papa Ours ;p</h2>
+      <p>Je suis nouveau dans le developpement et actuellement en formation, Voici mon portfolio développé avec Vue.js, pour un aperçu de mon apprentissage et un suivi de mes évolutions !</p>
     </section>
   </template>
   
