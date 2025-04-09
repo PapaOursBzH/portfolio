@@ -1,7 +1,10 @@
 <template>
   <header class="header">
     <div class="header-content">
-      <img src="/public/logo.png" alt="Logo" class="logo" />
+      <!-- Logo cliquable -->
+      <router-link to="/" class="logo-link">
+        <img src="/logo.png" alt="Logo" class="logo" />
+      </router-link>
       <h1 class="title">Bienvenue chez moi</h1>
     </div>
     <nav class="nav">
@@ -30,10 +33,16 @@
   position: relative;
 }
 
-.logo {
-  height: 60px;
+.logo-link {
   position: absolute;
   left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  cursor: pointer;
 }
 
 .title {
@@ -46,7 +55,7 @@
 .nav {
   margin-top: 1rem;
   display: flex;
-  gap: 2rem; /* espace entre les liens */
+  gap: 2rem;
 }
 
 .nav a {
