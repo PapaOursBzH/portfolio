@@ -26,8 +26,8 @@
     image: logoportfolio,
     date: 'Mars 2024',
     tech: ['HTML', 'CSS', 'Vue.js'],
-    site: 'https://monportfolio.com',
-    repo: 'https://github.com/monrepo/portfolio'
+    site: 'https://papaoursbzh.github.io/portfolio/#/presentation',
+    repo: 'https://github.com/PapaOursBzH/portfolio'
   },
   {
     title: 'Mon CV',
