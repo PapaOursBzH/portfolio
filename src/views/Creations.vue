@@ -36,7 +36,8 @@
     tech: ['HTML', 'CSS'],
     site: 'https://papaoursbzh.github.io/',
     repo: 'https://github.com/PapaOursBzH/papaoursbzh.github.io'
-  }
+  },
+
   {
     title: 'Cours Dynamiser un espace commentaire',
     image: logoportfolio,
@@ -46,7 +47,6 @@
     repo: 'https://github.com/PapaOursBzH/DynamiserUnEspaceDeCommentaires_DocumentsDevoir'
   }
 ]
-
   
   const selectedProject = ref(null)
   const openModal = (project) => selectedProject.value = project
