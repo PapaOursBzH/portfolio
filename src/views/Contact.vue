@@ -14,7 +14,6 @@
         <label>Message</label>
         <textarea name="Message" required></textarea>
       </div>
-      <!-- Formsubmit-specific options -->
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_next" :value="redirectUrl" />
       
@@ -27,7 +26,7 @@
 const emailTo = import.meta.env.VITE_CONTACT_EMAIL
 const formAction = `https://formsubmit.co/${emailTo}`
 
-// Redirection après soumission (facultatif)
+
 const redirectUrl = window.location.href + '?success=true'
 </script>
 
