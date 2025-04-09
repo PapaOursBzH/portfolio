@@ -2,13 +2,19 @@
   <footer class="footer">
     <p>© {{ currentYear }} - Mis à jour le {{ updateDate }}</p>
     <div class="socials">
-      <a href="https://github.com" target="_blank">GitHub</a>
-      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ton-vrai-pseudo" target="_blank" aria-label="GitHub">
+        <Github :size="24" />
+      </a>
+      <a href="https://www.linkedin.com/in/ton-vrai-profil/" target="_blank" aria-label="LinkedIn">
+        <Linkedin :size="24" />
+      </a>
     </div>
   </footer>
 </template>
 
 <script setup>
+import { Github, Linkedin } from 'lucide-vue-next'
+
 const updateDate = new Date().toLocaleDateString()
 const currentYear = new Date().getFullYear()
 </script>
@@ -21,12 +27,20 @@ const currentYear = new Date().getFullYear()
   padding: 1rem;
   margin-top: 3rem;
 }
-.socials a {
-  margin: 0 0.5rem;
-  color: white;
-  text-decoration: none;
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
+
+.socials a {
+  color: white;
+  transition: transform 0.2s;
+}
+
 .socials a:hover {
-  text-decoration: underline;
+  transform: scale(1.2);
 }
 </style>
