@@ -14,6 +14,8 @@
   </template>
   
   <script setup>
+  import logoportfolio from '@/assets/logoportfolio.png'
+  import cv from '@/assets/CV.jpg'
   import ProjectCard from '@/components/ProjectCard.vue'
   import ProjectModal from '@/components/ProjectModal.vue'
   import { ref } from 'vue'
@@ -21,7 +23,7 @@
   const projects = [
   {
     title: 'Projet Portfolio',
-    image: '/logo.png',
+    image: logoportfolio,
     date: 'Mars 2024',
     tech: ['HTML', 'CSS', 'Vue.js'],
     site: 'https://monportfolio.com',
@@ -29,13 +31,14 @@
   },
   {
     title: 'Mon CV',
-    image: '/CV.jpg',
+    image: cv,
     date: 'Avril 2024',
     tech: ['HTML', 'CSS'],
     site: 'https://papaoursbzh.github.io/',
     repo: ''
   }
 ]
+
   
   const selectedProject = ref(null)
   const openModal = (project) => selectedProject.value = project
