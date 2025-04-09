@@ -5,7 +5,7 @@
       <router-link to="/" class="logo-link">
         <img src="/logo.png" alt="Logo" class="logo" />
       </router-link>
-      <h1 class="title">Bienvenue chez moi</h1>
+      <h1 class="title">La Tannière</h1>
     </div>
     <nav class="nav">
       <router-link to="/presentation">Présentation</router-link>
